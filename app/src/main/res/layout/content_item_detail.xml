@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="group.sisto.ambrose.price.ItemDetail"
+    tools:showIn="@layout/activity_item_detail">
+
+    <TextView
+        android:id="@+id/detail_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sweet Potatos (1Heap)"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/detail_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Okello Joseph"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/detail_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="04/06/2016"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/detail_item_detail_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This ia a dummy text. It will be replaced with real data. You will first learn how to send SMS messages programmatically from within your application. Using this approach, your application can automatically send an SMS message to a recipient without user intervention. The following Try It Out shows you how.This section describes how you can programmatically send and receive SMS messages in your Android
+applications. The good news for Android developers is that you don’t need a real device to test SMS
+messaging: The free Android Emulator provides that capability" />
+</LinearLayout>
